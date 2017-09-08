@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+<!-- 		<link rel="stylesheet" href="includes/css/styles.css">
+ -->		<link rel="stylesheet" href="css/mystyle.css">
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+			<div class="container-fluid ">
+            
+         	
+			<div class="navbar navbar-default">
+				<div class="container">
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a href="#" class="pull-left"><img src="img/logo_1.jpg"></a>
+<!-- 					<a class="navbar-brand" href="/"></a><img src="img/longo.jpg" alt="Garden King"> </a>
+ -->					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li >
+								<a href="#">Home</a>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plants <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">ornamnetal</a>
+									</li>
+									
+									<li>
+										<a href="#">Flowers</a>
+									</li>
+									<li>
+										<a href="#">Fruits and Vegetables</a>
+									</li>
+									<li>
+										<a href="#">Herbal</a>
+									</li>
+									
+									<li>
+										<a href="#">More..</a>
+									</li>
+
+								</ul><!-- end dropdown-menu -->
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Maintainance</a>
+									</li>
+									
+									<li>
+										<a href="#">Innovations</a>
+									</li>
+									<li>
+										<a href="#">Tips</a>
+									</li>
+									
+									<li>
+										<a href="#">More Services</a>
+									</li>
+
+								</ul><!-- end dropdown-menu -->
+							</li>
+
+							<li >
+								<a href="#">Blog</a>
+							</li>
+							<li >
+								<a href="#">Contact us</a>
+							</li>
+						</ul>
+						
+					
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Profile <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-check"></span> wishlist</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a>
+									</li>
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-heart"></span> Favouties</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Log out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+		</div>	
+			
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Decorate</h4>
+							<p>With our Innovations</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+
+						<div class="carousel-caption">
+							<h4>Best Customer Service</h4>
+							<p>Guarantted Long Life</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+
+						<div class="carousel-caption">
+							<h4>Breathe Freshness</h4>
+							<p>Enjoy Fresh air</p>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
+			
+			
+			<div class="row" id="bigCallout">
+				<div class="col-12">
+					
+					
+ -->						<div class="page-header">
+							<h1>About Us </br> <small>Our Journey </small><small>  Our Motto </small></h1>
+
+							<article>
+
+								<p>When the world is in crisis for better environment,We provide our hands to solve this problem.We provide various plants across all segments.Our plants qualify all the environmental tests and therefore sustains adverse climate.Join us to make this world beautiful. 
+								</p>
+
+								<p>
+									Make this world better and Gift it to Next-Gen.
+								</p>
+							</article>
+						    </div><!-- end page-header -->
+						
+					
+				</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+			
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-sm-12">
+					<h2>Plants</h2>
+					<p class="lead">Shop by Category</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+				  <a href="#">
+
+					<div class="panel orna">
+						<div class="panel-heading">
+							<h3 class="panel-title">Ornamnetal</h3>
+						</div><!-- end panel-heading -->
+						
+						
+					</div><!-- end panel -->
+					</a>
+				</div><!-- end feature -->
+				
+				
+
+			
+
+				<div class="col-sm-4 feature">
+				 <a href="#">
+
+					<div class="panel fruit">
+						<div class="panel-heading">
+							<h3 class="panel-title">Fruits and Vegetables</h3>
+						</div><!-- end panel-heading -->
+						
+					</div><!-- end panel -->
+
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+				  <a href="#">
+					<div class="panel herbal">
+						<div class="panel-heading">
+							<h3 class="panel-title">Herbal Plants</h3>
+						</div><!-- end panel-heading -->
+						
+					</div><!-- end panel -->
+				</a>
+				</div><!-- end feature -->
+			</div><!-- end features -->
+
+
+        <div class="row" id="featuresHeading">
+				<div class="col-sm-12">
+					<h2>Our Services</h2>
+<!-- 					
+ -->				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			<div class="row" id="features">
+              <div class="col-sm-4 feature">
+                 <a href="#">
+					<div class="panel pots">
+						<div class="panel-heading">
+							<h3 class="panel-title">Pots</h3>
+							   <!-- <img src="img/pots.jpg" class="img-responsive"> -->
+						</div><!-- end panel-heading -->
+						
+					</div><!-- end panel -->
+				  </a>
+				</div><!-- end feature -->
+				
+				
+
+				<div class="col-sm-4 feature">
+			      <a href="#">
+			      	<div href="#" class="panel tools">
+						<div class="panel-heading">
+							<h3 class="panel-title">Tool-Shed</h3>
+						</div><!-- end panel-heading -->
+						<img src="#">
+						
+						<p>Wide range of services</p>
+						
+					</div><!-- end panel -->
+					</a>
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					   <a href="#">
+
+					<div class="panel hr">
+						<div class="panel-heading">
+							<h3 class="panel-title">Human Resource</h3>
+						</div><!-- end panel-heading -->
+						
+					</div><!-- end panel -->
+					</a>
+					</div>
+				</div><!-- end feature -->
+
+			
+
+
+
+
+
+			
+	    </br>
+			
+		 </br>
+
+
+
+
+
+			   <div class="col-sm-12">
+					<section class="nav nav-tabs">
+<!-- 						<p data-toggle="tab">Our Locations</a></p>
+ -->						<!-- <li><a href="#tab2" data-toggle="tab">Section 2</a></li> -->
+					</section>
+					<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+									<h4><span class="glyphicon glyphicon-map-marker"></span> <strong>Visit us for adoration</strong></h4>
+									
+								
+									<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2246.3560205784215!2d77.61445925399731!3d12.932993611473075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3c632a2e17aea311!2sNIIT+-+Koramangala!5e0!3m2!1sen!2sin!4v1504806105339;output=embed"></iframe>
+								</div><!-- end tab-pane -->
+								
+						
+					</div><!-- end tab-content -->
+			   </div><!-- end tabbable -->
+
+ 
+		<footer>
+			<!-- <div class="container"> -->
+				<div class="row">
+					<div class="col-sm-4"> 
+							</br>
+						<ul class="unstyled">
+
+							    <li><a href="#">Gallery</a></li>
+								<li><a href="#">Nurseries</a></li>
+								<li><a href="#">Locations </a></li>
+								<li><a href="#">R&D</a></li>
+								
+							</ul>
+						
+					</div><!-- end col-sm-2 -->
+					
+					
+					
+					<div class="col-sm-4">
+						</br>
+						<ul class="unstyled">
+
+						    <li><a href="#">FAQ</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Chat with us </a></li>
+							<li><a href="#">Contact us</a></li>
+							
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4" id="media">
+					  </br>
+						<ul class="unstyled">
+						     <li>Follow Us</li>
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-linkedin"></a></li>
+							<li><a href="#" class="fa fa-youtube"></a></li>
+						</ul>
+						
+					</div><!-- end col-sm-2 -->
+					
+					
+				</div><!-- end row -->
+			<!-- </div> --><!-- end container -->
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

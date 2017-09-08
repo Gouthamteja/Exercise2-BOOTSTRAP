@@ -1,0 +1,296 @@
+
+*{
+    border:0px;
+	margin:0px;
+	padding: 0px;
+}
+body{
+
+	margin: 0px;
+	padding:0px;
+	background-color: #eee;
+}
+/*@media (min-width: 1200px)
+.container{
+	max-width: 2000px;
+}
+
+
+
+*/
+
+
+
+/*
+.navbar{
+	color:red;
+	width: 100%;
+}
+
+.navbar .container, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+}
+
+
+.navbar .container-fluid, .navbar-collapse {
+    padding-left:0;
+}
+.navbar-collapse.in {
+    padding-left:30px;
+    padding-right: 20px;
+}
+
+
+.navbar-inverse{
+
+background-color:#4B4B3F;
+	
+	border-color: #4B4B3F;
+    padding-left: 0px;
+
+}
+ .navbar-text {
+	color: white;
+	font-weight: bold;
+}
+/**/
+/*.nav li a{
+	color: white;
+	font-weight: bold;
+	padding-right: 40px;
+	text-align: center;
+}*/
+
+*/
+
+
+#myCarousel {
+	margin-top: 20px;
+
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { 
+	height: 500px;
+}
+
+#slide1 {
+	background: url('../img/plant_big_1.jpg')  center top no-repeat;
+/*				background-size: cover; 
+*/
+}
+
+#slide2 {
+	background: url('../img/plant_big_2.png')  center top no-repeat;
+/*				background-size: cover; 
+*/
+}
+
+#slide3 {
+	background: url('../img/plan_big-1.jpg') center top  no-repeat;
+/*				background-size: cover; 
+*/
+}
+
+.orna{
+	background-image: url(../img/orna.jpg)  ;
+	background-position:  top center;
+   height: 300px;
+}
+
+/*.flower{
+	background-image: url(../img/flower.jpg);
+	background-position: top center;
+	height: 300px;
+	width: 280px;
+	
+}*/
+
+.fruit{
+	background-image: url(../img/veg.jpg);
+	background-position: top center;
+	height: 300px;
+			background-size: cover; 
+
+}
+.herbal{
+	background-image: url(../img/herbal.jpg);
+	background-position: top center;
+	height: 300px;
+			background-size: cover; 
+
+}
+
+
+.pots{
+	background-image: url(../img/pots.jpg) ;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 300px;
+		background-size: cover; 
+
+
+	
+}
+
+
+
+.tools{
+	background-image: url(../img/tools.jpg);
+	background-position: top center;
+	height: 300px;
+	background-size: cover; 
+/*	width: 280px;
+*/}
+.hr{
+	background-image: url(../img/hr.jpg);
+	background-position: top center;
+	
+	height: 300px;
+			background-size: cover; 
+
+	/*width: 280px;*/
+}
+
+/*.door{
+	background-image: url(../img/door.jpg);
+	background-position: top center;
+	height: 300px;
+	width: 280px;
+
+}
+*/
+.feature h3{
+	text-align: center;
+
+}
+.feature a{
+	text-decoration: none;
+	color:black;
+
+}
+
+.feature a:hover{
+	color: blue;
+
+}
+
+/*.carousel-caption {
+	background-color: #e3e3e3;
+	opacity: 0.3;
+
+
+}
+*/
+
+.carousel-caption h4{
+color:black;
+font-weight: bold;
+text-shadow: 2px 2px white;
+}
+
+
+.carousel-caption p{
+color:black;
+font-weight: bold;
+}
+
+
+.col-sm-4 ul{
+	list-style-type: none;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+
+
+.unstyled li a{
+color:black;
+}
+
+.unstyled li a:hover{
+color:blue;
+}
+
+
+.navbar-nav>li>a {
+	color:#4EB87B;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.dropdown-menu>li>a{
+	color:#4EB87B;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+.dropdown-menu{
+	background-color: #eee;
+
+}
+
+.page-header h1,p{
+	text-align: center;
+
+
+}
+
+.page-header p{
+	text-align: center;
+	font-size: 20px;
+
+}
+
+small{
+	padding-right: 20px;
+}
+
+/*footer{
+padding-top: 200px;
+*/}
+*/
+/*.tabbable {
+padding-left: 400px;
+}*/
+h6{
+	float:left;
+}
+
+@media (max-width: 480px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../img/plant_small_1.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../img/plant_small_2.png') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../img/plant_small_3.jpg') top center no-repeat;
+	}
+	
+	.carousel-caption {
+		font-size: 12px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 10px;
+	}
+	
+}
