@@ -9,101 +9,81 @@ body{
 	margin: 0px;
 	padding:0px;
 	background-color: #eee;
-}
-/*@media (min-width: 1200px)
-.container{
-	max-width: 2000px;
+	overflow-x: hidden;
 }
 
 
 
-*/
-
-
-
-/*
-.navbar{
-	color:red;
-	width: 100%;
-}
-
-.navbar .container, .navbar-collapse {
-    padding-left:0;
-}
-.navbar-collapse.in {
-    padding-left:30px;
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+/*  width: 100%;
+*/  height: auto;
+background-repeat: no-repeat;
 }
 
 
-.navbar .container-fluid, .navbar-collapse {
-    padding-left:0;
-}
-.navbar-collapse.in {
-    padding-left:30px;
-    padding-right: 20px;
-}
 
 
-.navbar-inverse{
 
-background-color:#4B4B3F;
+
+
+
+@media (min-width: 1440px) {
 	
-	border-color: #4B4B3F;
-    padding-left: 0px;
 
+	.carousel-caption {
+		font-size: 36px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 32px;
+	}
+	
 }
- .navbar-text {
-	color: white;
-	font-weight: bold;
-}
-/**/
-/*.nav li a{
-	color: white;
-	font-weight: bold;
-	padding-right: 40px;
-	text-align: center;
-}*/
+@media (max-width: 1440px) {
+	
 
-*/
-
-
-#myCarousel {
-	margin-top: 20px;
-
-}
-
-.carousel-caption {
-	font-size: 24px;
+	.carousel-caption {
+		font-size: 32px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 28px;
+	}
+	
 }
 
-.carousel-caption h4 {
-	font-size: 32px;
-}
 
-#myCarousel .item { 
-	height: 500px;
-}
+@media (max-width: 980px) {
+	
 
-#slide1 {
-	background: url('../img/plant_big_1.jpg')  center top no-repeat;
-/*				background-size: cover; 
-*/
+	.carousel-caption {
+		font-size: 24px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 16px;
+	}
+	
 }
+@media (max-width: 480px) {
+	
 
-#slide2 {
-	background: url('../img/plant_big_2.png')  center top no-repeat;
-/*				background-size: cover; 
-*/
+	.carousel-caption {
+		font-size: 14px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 8px;
+	}
+	
 }
-
-#slide3 {
-	background: url('../img/plan_big-1.jpg') center top  no-repeat;
-/*				background-size: cover; 
-*/
-}
-
 .orna{
-	background-image: url(../img/orna.jpg)  ;
+	background-image: url(../img/flow.jpg)  ;
 	background-position:  top center;
    height: 300px;
 }
@@ -269,28 +249,7 @@ h6{
 	float:left;
 }
 
-@media (max-width: 480px) {
-	
-	#myCarousel .item { height: 310px; }
-	
-	#slide1 {
-		background: url('../img/plant_small_1.jpg') top center no-repeat;
-	}
-	
-	#slide2 {
-		background: url('../img/plant_small_2.png') top center no-repeat;
-	}
-	
-	#slide3 {
-		background: url('../img/plant_small_3.jpg') top center no-repeat;
-	}
-	
-	.carousel-caption {
-		font-size: 12px;
-	}
-	
-	.carousel-caption h4 {
-		font-size: 10px;
-	}
-	
+.col-sm-12 h2{
+	padding-left: 45%;
+
 }
