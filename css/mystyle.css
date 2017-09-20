@@ -281,21 +281,21 @@ h6{
 */
 
 
-.fill form {
+/*.fill form {
     border-radius: 5px;
     background-color: #67DA98;
     padding: 20px;
     font-weight: bold;
     border: 2px solid green;
 }
-
+*/
 
 header{
 	text-align: center;
 }
 
 
-input[type=text], select {
+/*input[type=text], select {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -305,7 +305,7 @@ input[type=text], select {
     box-sizing: border-box;
 
 }
-
+*/
 /*input[type=submit] {
     width: 100%;
     background-color: green;
@@ -318,11 +318,11 @@ input[type=text], select {
     border: 2px solid green;
 
 /*    cursor: pointer;
-*/}*/
-
-.button {
+}*/
+/**/
+/*.button {
     background-color: #4CAF50; /* Green */
-    border: none;
+   /* border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -330,9 +330,9 @@ input[type=text], select {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
-}
-
+    cursor: pointer;*/
+/*}*/
+/*
 #end{
 	padding-left: 50%;
-}
+}*/

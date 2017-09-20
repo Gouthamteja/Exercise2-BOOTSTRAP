@@ -1,0 +1,25 @@
+body{
+	background-color: #68EA9B;
+}
+
+
+.container-fluid{
+	margin-left: 100px;
+	margin-right: 100px;
+/*	border:2px solid green;
+*/}
+
+
+
+.container2,
+	margin-left: 100px;
+}
+
+
+#ajax-response1{
+	display: none;
+}
+
+#ajax-response2{
+	display: none;
+}
